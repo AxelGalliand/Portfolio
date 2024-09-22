@@ -9,6 +9,19 @@ body {
 
 }
 
+a:link {
+    color: #ffae00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffae00; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 body header {
     display: flex;
     justify-content: center;
@@ -112,5 +125,24 @@ h1 {
 
 
 footer {
-    margin: 0 20em;
+    margin: 5rem 20em;
+    justify-self: center;
+}
+
+.footer-cont {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.footer-cont a {
+    background-color: #333333;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.5rem;
+    border-style: double;
+    text-decoration: none;
+}
+
+.footer-cont a:hover {
+    color: aliceblue;
 }
