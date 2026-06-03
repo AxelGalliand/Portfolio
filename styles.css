@@ -64,11 +64,13 @@ h1 {
 .intro_pic {
     grid-column: 2/3;
     grid-row: 1/2;
+
 }
 
 .intro_pic img {
     height: auto;
     width: 200px;
+    border-radius: 2.5em;
 }
 
 
